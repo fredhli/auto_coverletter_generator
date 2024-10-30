@@ -89,7 +89,7 @@ chromedriver_path = "./tools/chromedriver-mac-arm64/chromedriver"  # macOS examp
     - You can name your versions of CV as you wish
 2. Update dictionaries in `configuration.py`
 ```bash
-# Update the CV nickname dictionary as you wish
+# Update the CV nickname dictionary as you wish, here's an example
 cv_dict = {
     "trader_quant_data": cv_trader_quant_data,
     "research": cv_research,
@@ -100,7 +100,7 @@ cv_dict = {
     "risk": cv_risk,
 }
 
-# Update the what pdf is called in your CV folder
+# Update the what pdf is called in your CV folder, here's an example
 cv_location_dict = {
     "trader_quant_data": "trader.pdf",
     "research": "research.pdf",
@@ -118,8 +118,6 @@ cv_location_dict = {
         Package/Unofficial Transcript - {Your name}.pdf
         ```
 
-## Usage
-1.
 ## Usage
 1. Run the program:
     ```bash
