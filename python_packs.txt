@@ -1,6 +1,13 @@
 re
 shutil
 pyperclip
+pandas
+datetime
+base64
+tkinter
+notion_client
+selenium
+pprint
 openai
 tkinter
 PyPDF2
