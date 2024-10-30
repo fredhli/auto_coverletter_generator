@@ -119,15 +119,33 @@ cv_location_dict = {
         ```
 
 ## Usage
-1. Run the Program:
-```bash
-python main.ipynb
-```
-2. Edit First Part as your job description goes:
-    - Select CV version
-    - Input job description
-    - Review generated cover letter
-    - Save or modify as needed
+1.
+## Usage
+1. Run the program:
+    ```bash
+    python main.ipynb
+    ```
+
+2. Prepare for execution:
+    - Close any open PDF reader applications to avoid conflicts.
+
+3. Input job application details:
+    - Paste the job description.
+    - Enter company name, city, and state **(required)**.
+    - Select appropriate CV version:
+        - If undecided, write:
+            ```bash
+            cv_type = "undecided"
+            ```
+            ChatGPT will help you choose and tell you the reason.
+    - Add any relevant strengths to highlight.
+
+4. Review outputs:
+    - Check the generated cover letter in the Cover Letter folder.
+    - Verify the application entry in `Application History.xlsx`.
+
+*Note: Company address lookup is optional, but ensure no incorrect addresses from previous applications remain.*
+
 
 ## Contributing
 1. Fork the repository
@@ -135,13 +153,16 @@ python main.ipynb
 3. Submit a pull request
 
 ## License
-This project is licensed under the MIT License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Support
 For questions or issues, please open a GitHub issue, or contact me directly at fredhli@outlook.com
 
-## Note
-- Ensure all API keys are valid and have sufficient credits
-- Keep your CV files up to date
-- Regular internet connection required for API calls
-- Know your strength and happy job hunting!
+## Notes
+- This project is a great opportunity to streamline your job application process and save valuable time.
+- Don't hesitate to experiment with different CV versions and see which one works best for different job applications.
+- Remember to keep your API keys secure and never share them publicly.
+- Regularly update your CVs and cover letters to reflect your latest skills and experiences.
+- If you encounter any issues, the community is here to help. Feel free to reach out!
+
+Happy job hunting and best of luck!

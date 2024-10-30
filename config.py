@@ -32,7 +32,7 @@ package_folder = f"{root}/Package"
 
 # Chromedriver path
 binary_location = "C:/Program Files/chrome-win32/chrome.exe" if system_used == "Windows" else "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-path_to_chromedriver = 'D:/Dropbox/Downloads/tools/chrome-win-x64/chromedriver' if system_used == "Windows" else '/Users/fred/Downloads/tools/chromedriver-mac-arm64/chromedriver'
+path_to_chromedriver = "./tools/chromedriver-win64/chromedriver.exe" if system_used == "Windows" else "./tools/chromedriver-mac-arm64/chromedriver"
 
 # CV Data
 # CV1: CV for Trader, Quant and Data Roles
@@ -66,6 +66,7 @@ cv_risk = """
 
 """
 
+# CV Dictionary
 cv_dict = {
     "trader_quant_data": cv_trader_quant_data,
     "research": cv_research,
@@ -76,6 +77,7 @@ cv_dict = {
     "risk": cv_risk,
 }
 
+# CV Location Dictionary
 cv_location_dict = {
     "trader_quant_data": "trader.pdf",
     "research": "research.pdf",
