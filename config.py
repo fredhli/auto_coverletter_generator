@@ -25,7 +25,7 @@ elif re.match(r"^/Users", os.getcwd()):
     system_used = "Mac"
 
 # root is the folder that you store your CV and outputs
-root = "D:/Dropbox/Documents/JHt" if system_used == "Windows" else "/Users/fred/Library/CloudStorage/Dropbox/Documents/JHt"
+root = "./"
 download_folder = f"{root}/Cover Letter"
 cv_folder = f"{root}/CV"
 package_folder = f"{root}/Package"
